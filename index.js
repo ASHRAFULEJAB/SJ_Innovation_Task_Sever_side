@@ -7,8 +7,6 @@ const jwt = require("jsonwebtoken");
 require("dotenv").config();
 const port = process.env.PORT || 5000;
 
-const category = require("./db/category.json");
-const products = require("./db/book.json");
 app.get("/", (req, res) => {
   res.send("Coffeshop is runnning...");
 });
@@ -28,7 +26,7 @@ async function run() {
   try {
     const coffeshopCollection = client.db("coffeshopDB").collection("products");
 
-    // servicess
+    // Product home page
     app.get("/product-home", async (req, res) => {
       const query = {};
       const price = req.query.price;
@@ -36,19 +34,13 @@ async function run() {
       const services = await cursor.limit(3).toArray();
       res.send(services);
     });
-
+    // Product menu page
     app.get("/products", async (req, res) => {
       const query = {};
       const price = req.query.price;
       const cursor = coffeshopCollection.find(query);
       const services = await cursor.toArray();
       res.send(services);
-    });
-    app.get("/services/:id", async (req, res) => {
-      const id = req.params.id;
-      const query = { _id: ObjectId(id) };
-      const service = await coffeshopCollection.findOne(query);
-      res.send(service);
     });
   } finally {
   }
