@@ -1,0 +1,50 @@
+[
+  {
+    
+    "categoryId": "1",
+    "img": "https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?b=1&s=170667a&w=0&k=20&c=Ksq0vNF3LHsNR6GHF_Plgzj2GjBmMTyZIZiU-cw5jZI=",
+    "name": "Espresso",
+    "des": "Espresso (ess-PRESS-oh) is a full-flavored, concentrated form of coffee that is served in “shots.” It is made by forcing pressurized hot water through very finely ground coffee beans using an espresso machine. The result is a liquid stronger than coffee topped with a “crema,” a brown foam that forms",
+    "price": 10.99
+  },
+  {
+    
+    "categoryId": "1",
+    "img": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcHVjY2lub3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "name": "Cappuccino",
+    "des": "A cappuccino is a coffee drink made from a mixture of espresso and steamed milk. A traditional Italian cappuccino is generally a single (or sometimes a double) espresso shot topped with equal parts steamed and frothed milk (in a ratio of 1:1:1).",
+    "price": 12.99
+  },
+  {
+    
+    "categoryId": "1",
+    "img": "https://media.istockphoto.com/id/1368207254/photo/woman-holding-a-cup-of-cafe-latte-in-cafe.jpg?b=1&s=170667a&w=0&k=20&c=MFErVKMufrGAo3KFjz9AwwVUKwGrz7qDXi3EmMWsDUM=",
+    "name": "Latte",
+    "des": "A cafe latte consists of 2 fluid ounces of espresso, 3 ounces of steamed milk, and typically a thin layer of foam on top. It can sometimes be referred to as a 'Wet Cappuccino'",
+    "price": 9.99
+  },
+  {
+    
+    "categoryId": "1",
+    "img": "https://media.istockphoto.com/id/157675911/photo/cappuccino-topped-with-swirls-of-chocolate-sauce.jpg?b=1&s=170667a&w=0&k=20&c=e9WAuuwkeRx816e2iBLTSf5yFr_WgY_5XrC-9ffguHQ=",
+    "name": "Mocha",
+    "des": "A cafe mocha is essentially a chocolate flavored variant of a cafe latte, or even a hot chocolate with shots of espresso in it. It is made up of espresso, milk, and chocolate. It can include one or two shots of espresso depending on taste preferences and traditionally is topped with milk foam, just like a latte. ",
+    "price": 8.99
+  },
+  {
+    
+    "categoryId": "1",
+    "img": "https://media.istockphoto.com/id/1292760133/photo/hot-coffee-cup-with-coffee-beans-on-the-wooden-table.jpg?b=1&s=170667a&w=0&k=20&c=zG1fXTwuU-khwDUVKs4bH38CEJxLzHv-T9mXomnqzjY=",
+    "name": "Americano",
+    "des": "A classic Americano calls for just two ingredients: a shot of espresso and somewhere between eight and 12 ounces of hot water. You can also make an Americano coffee with a double shot of espresso; just know that you’ll need to adjust the ratio of water accordingly to keep the drink balanced.",
+    "price": 7.99
+  },
+  {
+    
+    "categoryId": "1",
+    "img": "https://tse3.mm.bing.net/th?id=OIP.912agcyM2jCZwrtcdPHikAHaMK&pid=Api&P=0",
+    "name": "Macchiato",
+    "des": "A macchiato tastes a lot like espresso, this simply means the higher the quality of beans used, the better the flavour of the macchiato. Small to medium macchiato contains about 80 to 100mg of caffeine, while large ones range from 120mg to 130 mg.",
+    "price": 11.99
+  }
+]
